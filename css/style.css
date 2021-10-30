@@ -1,0 +1,218 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,regular,500,700,900,&display=swap");
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-Roman.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-Roman.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeueBoldCondensed.woff2") format("woff2"),
+		url("../fonts/HelveticaNeueBoldCondensed.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-CondensedBlack.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-CondensedBlack.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "Roboto";
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 100px 0px 100px 0px;
+	background: #F5F5F5;
+}
+[class*="__container"] {
+	max-width: 1020px;
+	margin: 0px auto;
+}
+
+/* .................................................... */
+
+.impact {
+	background: #29C3BE url("../img/impact/bg.png") 78% 0 no-repeat;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+}
+.impact__container {
+	padding: 112px 0px 100px 0px;
+	margin-bottom: 100px;
+}
+.impact__header {
+	margin: 0px 0px 79px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	gap: 180px 0px;
+}
+.impact__titles {
+	max-width: 411px;
+}
+.impact__subtitle {
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	background: url("../img/impact/mark.svg") -4px -2px no-repeat;
+	padding: 0px 0px 0px 33px;
+	margin: 0px 0px 32px 0px;
+}
+
+.impact__image {
+	margin: -180px 0px 0px 0px;
+}
+.img {
+	border-radius: 40px;
+}
+
+.impact__items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	gap: 50px 24px;
+}
+.impact__item {
+	display: flex;
+	column-gap: 11px;
+	flex-basis: 237px;
+	align-items: center;
+}
+.impact__icon {
+	
+}
+.impact__ic {
+}
+.impact__text {
+
+}
+.impact__numbers {
+}
+.impact__data {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+}
+
+
+
+
+/* ____________Второй блок________________ */
+
+
+
+
+.promise {
+}
+.promise__container {
+}
+.promise__titles {
+	margin: 0px 0px 68px 0px;
+}
+.promise__subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	background: url("../img/promise/mark.svg") -2px -2px no-repeat;
+	padding: 0px 0px 0px 33px;
+	margin: 0px 0px 33px 0px;
+}
+.promise__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+}
+.promise__items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px 24px;
+}
+.promise__item {
+	display: flex;
+	flex-basis: 324px;
+	gap: 20px 27px;
+	
+}
+.promise__icon {
+}
+.promise__ic {
+}
+.promise__text {
+	margin: 4px 0px 0px 0px;
+}
+.promise__title-item {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #F2726F;
+	margin: 0px 0px 20px 0px;
+}
+.promise__data {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #4B4B4B;
+}
